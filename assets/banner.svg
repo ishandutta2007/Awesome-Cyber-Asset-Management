@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+
+    <!-- Animated Core Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8; #818cf8; #c084fc; #38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8; #c084fc; #38bdf8; #818cf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#c084fc; #38bdf8; #818cf8; #c084fc" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="radarBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.6)" />
+      <stop offset="50%" stop-color="rgba(56, 189, 248, 0.15)" />
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0)" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(56, 189, 248, 0.07)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes rotateRadar {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes float1 {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-8px) translateX(4px); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(10px) translateX(-6px); }
+    }
+    @keyframes nodeBlink {
+      0%, 100% { fill: #38bdf8; filter: drop-shadow(0 0 2px #38bdf8); }
+      50% { fill: #ec4899; filter: drop-shadow(0 0 6px #ec4899); }
+    }
+    .radar-sweep {
+      transform-origin: 1020px 190px;
+      animation: rotateRadar 10s linear infinite;
+    }
+    .floating-group-1 {
+      animation: float1 6s ease-in-out infinite;
+    }
+    .floating-group-2 {
+      animation: float2 7s ease-in-out infinite;
+    }
+    .blinking-node {
+      animation: nodeBlink 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="380" rx="16" fill="url(#grid)" />
+
+  <!-- Ambient Glow Circles -->
+  <circle cx="150" cy="80" r="180" fill="rgba(56, 189, 248, 0.08)" filter="url(#glow)" />
+  <circle cx="1020" cy="190" r="170" fill="rgba(129, 140, 248, 0.12)" filter="url(#glow)" />
+  <circle cx="600" cy="350" r="120" fill="rgba(192, 132, 252, 0.06)" filter="url(#glow)" />
+
+  <!-- Outer Border -->
+  <rect x="2" y="2" width="1196" height="376" rx="15" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5" />
+
+  <!-- Radar Discovery Graphic (Right Section) -->
+  <g id="radar-system">
+    <!-- Concentric Target Circles -->
+    <circle cx="1020" cy="190" r="140" fill="none" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" stroke-dasharray="4 4" />
+    <circle cx="1020" cy="190" r="105" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1" />
+    <circle cx="1020" cy="190" r="70" fill="none" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" stroke-dasharray="6 3" />
+    <circle cx="1020" cy="190" r="35" fill="none" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.5" />
+    
+    <!-- Crosshairs -->
+    <line x1="870" y1="190" x2="1170" y2="190" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" />
+    <line x1="1020" y1="40" x2="1020" y2="340" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1" />
+
+    <!-- Rotating Sweep Beam -->
+    <g class="radar-sweep">
+      <path d="M 1020 190 L 1160 190 A 140 140 0 0 0 1020 50 Z" fill="url(#radarBeam)" />
+      <line x1="1020" y1="190" x2="1160" y2="190" stroke="#38bdf8" stroke-width="2" filter="url(#softGlow)" />
+    </g>
+
+    <!-- Asset Nodes on Radar -->
+    <g class="floating-group-1">
+      <!-- Node: Cloud -->
+      <circle cx="960" cy="130" r="5" fill="#38bdf8" filter="url(#softGlow)" />
+      <circle cx="960" cy="130" r="9" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="5;14;5" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <text x="940" y="115" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600">CLOUD</text>
+
+      <!-- Node: Endpoint -->
+      <circle cx="1090" cy="140" r="4.5" fill="#818cf8" filter="url(#softGlow)" />
+      <text x="1100" y="145" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600">ENDPOINT</text>
+    </g>
+
+    <g class="floating-group-2">
+      <!-- Node: Server / CMDB -->
+      <circle cx="1065" cy="255" r="5.5" class="blinking-node" />
+      <text x="1075" y="270" fill="#f43f5e" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700">VULNERABLE</text>
+
+      <!-- Node: Network Device -->
+      <circle cx="950" cy="230" r="4" fill="#38bdf8" filter="url(#softGlow)" />
+      <text x="915" y="248" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600">ROUTER</text>
+    </g>
+
+    <circle cx="1020" cy="190" r="4" fill="#38bdf8" filter="url(#softGlow)" />
+  </g>
+
+  <!-- Left Content: Branding & Typography -->
+  <g transform="translate(70, 0)">
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="280" height="28" rx="14" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+      <circle cx="14" cy="14" r="5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="28" y="18" fill="#38bdf8" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2">CURATED ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="132" fill="url(#titleGrad)" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" filter="url(#softGlow)">
+      Awesome Cyber Asset
+    </text>
+    <text x="0" y="180" fill="url(#titleGrad)" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" filter="url(#softGlow)">
+      Management
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="222" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="400">
+      The definitive guide to CAASM, CSAM, ITAM, CMDB &amp; Infrastructure Discovery
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 260)">
+      <rect x="0" y="0" width="88" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <text x="44" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🛡️ CAASM</text>
+
+      <rect x="98" y="0" width="85" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(129, 140, 248, 0.35)" stroke-width="1" />
+      <text x="140" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🔍 CSAM</text>
+
+      <rect x="193" y="0" width="80" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(192, 132, 252, 0.35)" stroke-width="1" />
+      <text x="233" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">💻 ITAM</text>
+
+      <rect x="283" y="0" width="82" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <text x="324" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🗄️ CMDB</text>
+
+      <rect x="375" y="0" width="138" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(16, 185, 129, 0.35)" stroke-width="1" />
+      <text x="444" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ Open-Source</text>
+
+      <rect x="523" y="0" width="95" height="28" rx="6" fill="rgba(15, 23, 42, 0.8)" stroke="rgba(244, 63, 94, 0.35)" stroke-width="1" />
+      <text x="570" y="18" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">☁️ SaaS</text>
+    </g>
+
+    <!-- Bottom Highlights -->
+    <g transform="translate(0, 316)">
+      <text x="0" y="0" fill="#64748b" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="500">
+        ✨ 70+ Curated Tools • 📊 Enterprise SaaS Pricing &amp; Limits • 🌐 Open-Source Building Blocks • ⭐ Star Ranked
+      </text>
+    </g>
+  </g>
+</svg>
