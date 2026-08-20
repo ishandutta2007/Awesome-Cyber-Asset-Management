@@ -34,107 +34,38 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Axonius](https://www.axonius.com/)**  
-  Cyber asset management and cybersecurity asset intelligence platform that aggregates data from security and IT-management systems to build a unified view of assets, identify gaps, and automate remediation.
-
-- **[Armis](https://www.armis.com/)**  
-  Cyber exposure management platform providing visibility across managed and unmanaged devices, IoT, OT, medical devices, cloud assets, applications, and other connected assets.
-
-- **[RunZero](https://www.runzero.com/)**  
-  Cyber asset management and network discovery platform focused on rapidly discovering devices and services across enterprise, remote, and unmanaged environments.
-
-- **[Noetic Cyber](https://noeticcyber.com/)**  
-  Cyber asset management and cyber hygiene platform that continuously discovers assets, correlates security data, identifies control gaps, and automates remediation workflows.
-
-- **[Device42](https://www.device42.com/)**  
-  IT infrastructure discovery and dependency-mapping platform providing comprehensive inventory, CMDB, application dependency mapping, IP address management, and data-center infrastructure visibility.
-
-- **[Lansweeper](https://www.lansweeper.com/)**  
-  IT asset discovery and inventory platform that discovers hardware, software, users, cloud resources, and other technology assets across enterprise environments.
-
-- **[ServiceNow Discovery](https://www.servicenow.com/products/it-operations-management/what-is-discovery.html)**  
-  Enterprise infrastructure discovery capability that identifies IT infrastructure and populates the ServiceNow CMDB with configuration items and relationships.
-
-- **[Tanium](https://www.tanium.com/)**  
-  Endpoint management and security platform providing real-time visibility, inventory, endpoint querying, vulnerability management, and control across large distributed environments.
-
-- **[Forescout](https://www.forescout.com/)**  
-  Cybersecurity platform focused on device discovery, device classification, network visibility, asset intelligence, and security policy enforcement across IT, IoT, OT, and IoMT environments.
-
-- **[Qualys CyberSecurity Asset Management](https://www.qualys.com/apps/cybersecurity-asset-management/)**  
-  Cyber asset-management capability providing continuous asset discovery, inventory, classification, and security context integrated with the Qualys platform.
-
-- **[Rapid7 InsightVM / Insight Platform](https://www.rapid7.com/)**  
-  Security platform combining asset discovery, vulnerability assessment, endpoint and network visibility, and exposure analytics.
-
-- **[Microsoft Defender External Attack Surface Management](https://www.microsoft.com/en-us/security/business/solutions/external-attack-surface-management)**  
-  External attack-surface discovery capability for identifying internet-facing assets and understanding an organization's externally exposed technology footprint.
-
-- **[Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint)**  
-  Endpoint security platform providing endpoint inventory, telemetry, device discovery, vulnerability information, and security posture visibility.
-
-- **[CrowdStrike Falcon](https://www.crowdstrike.com/)**  
-  Cloud-native endpoint and security platform providing endpoint telemetry, asset visibility, vulnerability intelligence, and security context.
-
-- **[Wiz](https://www.wiz.io/)**  
-  Cloud security platform providing cloud asset discovery, security graphing, identity relationships, vulnerabilities, and exposure analysis across cloud environments.
-
-- **[Orca Security](https://orca.security/)**  
-  Cloud security platform providing agentless discovery and inventory of cloud assets together with vulnerabilities, identities, misconfigurations, and attack-path context.
-
-- **[Lacework](https://www.fortinet.com/products/cloud-security/lacework)**  
-  Cloud security platform focused on cloud asset visibility, workload discovery, configuration analysis, and security monitoring.
-
-- **[Sysdig](https://sysdig.com/)**  
-  Cloud and container security platform providing visibility into hosts, containers, Kubernetes resources, workloads, and cloud infrastructure.
-
-- **[SentinelOne Singularity](https://www.sentinelone.com/platform/)**  
-  Security platform providing endpoint visibility, device inventory, telemetry, vulnerability context, and automated security operations.
-
-- **[Qualys](https://www.qualys.com/)**  
-  Cloud security and compliance platform providing asset discovery, vulnerability management, IT asset inventory, configuration assessment, and security intelligence.
-
-- **[Tenable One](https://www.tenable.com/products/tenable-one)**  
-  Exposure-management platform combining asset discovery, vulnerability management, attack-surface intelligence, and exposure analytics.
-
-- **[Tenable Attack Surface Management](https://www.tenable.com/products/attack-surface-management)**  
-  External attack-surface discovery and asset-inventory capability designed to identify internet-facing infrastructure and unknown assets.
-
-- **[Ivanti Neurons](https://www.ivanti.com/platform/ivanti-neurons)**  
-  Unified endpoint and asset-management platform providing device discovery, inventory, endpoint management, automation, and security context.
-
-- **[Flexera One](https://www.flexera.com/products/flexera-one)**  
-  Technology intelligence platform covering IT asset inventory, software asset management, cloud infrastructure, SaaS, and technology lifecycle information.
-
-- **[BMC Helix Discovery](https://www.bmc.com/it-solutions/helix-discovery.html)**  
-  Infrastructure discovery and dependency-mapping platform that discovers IT assets and relationships for CMDB and service-management use cases.
-
-- **[Device42](https://www.device42.com/)**  
-  Infrastructure discovery and dependency-mapping solution covering hardware, software, networks, applications, virtual machines, cloud infrastructure, and data-center assets.
-
-- **[InvGate Asset Management](https://www.invgate.com/asset-management/)**  
-  IT asset-management platform covering hardware, software, inventory, lifecycle management, and IT service-management workflows.
-
-- **[SolarWinds Service Desk](https://www.solarwinds.com/service-desk)**  
-  IT service-management and asset-management platform with inventory, discovery, configuration, and service-management capabilities.
-
-- **[ManageEngine AssetExplorer](https://www.manageengine.com/products/asset-explorer/)**  
-  IT asset-management and CMDB platform providing hardware/software inventory, lifecycle management, discovery, and configuration management.
-
-- **[Lansweeper](https://www.lansweeper.com/)**  
-  Automated technology asset discovery and inventory platform supporting IT, OT, cloud, software, hardware, and network assets.
-
-- **[Freshservice Asset Management](https://www.freshworks.com/freshservice/)**  
-  IT service-management platform with hardware/software asset discovery, lifecycle management, CMDB, and service relationships.
-
-- **[NinjaOne](https://www.ninjaone.com/)**  
-  Endpoint management and IT operations platform providing device inventory, endpoint monitoring, patch management, software management, and automation.
-
-- **[Datadog Infrastructure Monitoring](https://www.datadoghq.com/product/infrastructure-monitoring/)**  
-  Infrastructure observability platform that automatically discovers hosts, containers, services, cloud resources, and infrastructure relationships.
-
-- **[Dynatrace](https://www.dynatrace.com/)**  
-  Observability platform providing automatic discovery and topology mapping across applications, services, infrastructure, cloud environments, and dependencies.
+| Platform | Primary Focus / Description | Pricing (Starting Tiers) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Axonius](https://www.axonius.com/)** | Cyber asset management & CAASM platform aggregating data from security and IT tools for unified asset inventory and automated remediation. | Starts at ~$20,000 – $40,000/year (annual contract based on asset count, typically ~$20–$35/asset/year for entry deployments) | 14-day to 30-day proof-of-concept (POC) free trial (custom-scoped asset limit via sales; no permanent free tier) |
+| **[Armis](https://www.armis.com/)** | Cyber exposure management platform providing visibility across managed/unmanaged devices, IoT, OT, medical devices, and cloud infrastructure. | Starts at ~$25,000/year (annual contract based on connected device count, typically ~$30–$50/device/year) | 30-day proof-of-concept (POC) free trial (custom-scoped device limit via private offer/sales; no permanent free tier) |
+| **[runZero](https://www.runzero.com/)** | Cyber asset management and network discovery platform for rapidly discovering devices and services across enterprise, OT, and remote networks. | Free for ≤100 assets; Paid platform starts at ~$5,000/year (sold in 500-asset increments at ~$2.50–$3.50/asset/year) | Free forever for up to 100 assets (Community Edition); 21-day free trial of full platform with unlimited assets |
+| **[Noetic Cyber](https://noeticcyber.com/)** | CAASM and cyber hygiene platform that correlates security data, discovers asset relationships, and automates control gap remediation. | Starts at ~$25,000 – $35,000/year (annual subscription based on managed asset and connector volume) | 30-day guided proof-of-concept (POC) free trial (scoped to organizational environment; no permanent free tier) |
+| **[Device42](https://www.device42.com/)** | IT infrastructure discovery and dependency mapping platform with CMDB, ADDM, DCIM, and IP address management. | Starts at $4.50 – $6.50/device/year (minimum entry annual contract typically starting at $1,500 – $2,500/year) | 14-day free trial (up to 100 discovered devices); no permanent free tier |
+| **[Lansweeper](https://www.lansweeper.com/)** | IT asset discovery and inventory platform scanning hardware, software, users, and cloud resources across networks. | Free for ≤100 assets; Starter tier starts at €200/month (~$216/month, €2,400/year) for up to 2,000 assets; Pro at €350/month | Free forever for up to 100 assets (Free Mode with community support); 14-day free trial with unlimited assets |
+| **[ServiceNow Discovery](https://www.servicenow.com/products/it-operations-management/what-is-discovery.html)** | Enterprise infrastructure discovery capability that populates the ServiceNow CMDB with configuration items and relationship dependencies. | Starts at ~$42 – $60/node/year (ITOM Visibility packages require annual commitments typically starting at ~$30,000 – $50,000/year) | 30-day sales-led proof-of-concept (POC) trial scoped to test environments, or personal developer instance (PDI) with non-prod simulation; no permanent free tier |
+| **[Tanium](https://www.tanium.com/)** | Endpoint management and security platform providing real-time querying, asset inventory, vulnerability management, and endpoint control. | Starts at $20 – $24/endpoint/year for core visibility (minimum entry contracts typically start at 1,000 endpoints = ~$20,000/year) | 30-day free trial / test drive (via AWS Marketplace or direct sales for qualified environments; no permanent free tier) |
+| **[Forescout](https://www.forescout.com/)** | Device discovery, classification, network visibility, and security policy enforcement across IT, IoT, OT, and IoMT environments. | Starts at ~$30 – $60/device/year (annual subscription based on monitored device count; entry deployments typically start at ~$25,000/year) | 30-day proof-of-concept (POC) free trial (scoped to network environment; no permanent free tier) |
+| **[Qualys CSAM](https://www.qualys.com/apps/cybersecurity-asset-management/)** | Cybersecurity Asset Management providing continuous asset discovery, inventory, risk classification, and TruRisk scoring. | Starts at ~$199 – $250/asset/year standalone or ~$4.95/asset/year add-on (entry-level package typically starts at ~$2,495/year for 500 assets) | 30-day free trial (full access to CSAM & TruRisk with up to 256 assets scanned; no permanent free tier) |
+| **[Rapid7 InsightVM](https://www.rapid7.com/)** | Vulnerability risk management and asset discovery platform providing live endpoint, cloud, and network exposure analytics. | Starts at $1.62 – $1.93/asset/month ($19.44 – $23.16/asset/year, minimum 500 assets = ~$9,720 – $11,500/year) | 30-day free trial (full feature access for up to 256 live scanned assets; no permanent free tier) |
+| **[Microsoft Defender EASM](https://www.microsoft.com/en-us/security/business/solutions/external-attack-surface-management)** | External attack-surface discovery capability for identifying internet-facing assets and mapping external digital footprints. | $0.011 per approved asset/day (~$0.33/asset/month or ~$4.015/asset/year based on approved inventory) | 30-day free trial (full feature access for the first Defender EASM resource created; no permanent free tier) |
+| **[Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint)** | Endpoint security platform providing endpoint inventory, telemetry, device discovery, and vulnerability posture visibility. | Plan 1: $3.00/user/month ($36.00/user/year); Plan 2: $5.20/user/month ($62.40/user/year, covers up to 5 devices per user) | 30-day free trial (or up to 90-day evaluation for up to 25 user licenses via Microsoft 365 admin center; no permanent free tier) |
+| **[CrowdStrike Falcon](https://www.crowdstrike.com/)** | Cloud-native endpoint and security platform delivering endpoint telemetry, asset discovery, vulnerability intelligence, and hygiene. | Falcon Go: $59.99/device/year ($299.95/year minimum for 5 devices, max 100 devices); Falcon Pro: $99.99/device/year | 15-day free trial (full access to Falcon Prevent NGAV and device control); no permanent free tier |
+| **[Wiz](https://www.wiz.io/)** | Cloud security platform providing agentless cloud asset discovery, security graphing, identity relationships, and attack path analysis. | Starts at ~$24,000 – $38,000/year for up to 100 workloads (annual subscription based on connected cloud instances/workloads) | 14-day to 30-day proof-of-concept (POC) free trial (scoped to connected AWS/Azure/GCP environments; no permanent free tier) |
+| **[Orca Security](https://orca.security/)** | Agentless cloud security platform providing discovery and inventory of cloud assets, vulnerabilities, identities, and attack paths. | Starts at ~$15,000 – $25,000/year (workload-based subscription starting at ~$50/workload/year on AWS Marketplace) | 30-day free trial (accessible directly or via AWS Marketplace; no permanent free tier) |
+| **[Fortinet Lacework](https://www.fortinet.com/products/cloud-security/lacework)** | Cloud security and CNAPP platform focused on cloud asset visibility, workload discovery, and configuration posture. | Starts at ~$12,000 – $24,000/year (workload/host-based subscription starting at ~$30–$50/host/year) | 14-day free trial / Cloud Security Assessment (via AWS Marketplace or direct request; no permanent free tier) |
+| **[Sysdig Secure](https://sysdig.com/)** | Cloud and container security platform providing discovery and visibility into hosts, containers, Kubernetes resources, and cloud infrastructure. | Starts at $17.50 – $40.00/host/month (billed annually at ~$210 – $480/host/year, or $0.70/compute instance) | 30-day free trial (full feature access for cloud & Kubernetes environments; no permanent free tier) |
+| **[SentinelOne Singularity](https://www.sentinelone.com/platform/)** | Security platform providing endpoint visibility, device inventory, telemetry, vulnerability context, and automated response. | Singularity Core: ~$69.99/endpoint/year; Singularity Control: ~$79.99/endpoint/year; Singularity Complete: ~$159.99/endpoint/year | 30-day proof-of-concept (POC) free trial (managed through partner/sales for qualified organizations; no permanent free tier) |
+| **[Tenable One / TVM](https://www.tenable.com/products/tenable-one)** | Exposure management and vulnerability platform combining asset discovery, attack-surface intelligence, and risk analytics. | Tenable Vulnerability Management starts at $2,275/year for 65 assets (~$35/asset/year); Tenable One starts at ~$50,000/year for enterprise bundles | 30-day free trial for Tenable Vulnerability Management (up to 64 assets scanned); no permanent free tier |
+| **[Ivanti Neurons](https://www.ivanti.com/platform/ivanti-neurons)** | Unified endpoint and asset-management platform providing device discovery, inventory, endpoint management, and security posture. | Starts at ~$25 – $50/device/year (tiered modular subscriptions starting at ~$10,000/year base commitment) | 30-day sales-led proof-of-concept (POC) trial; no permanent free tier |
+| **[Flexera One](https://www.flexera.com/products/flexera-one)** | Technology intelligence platform covering IT asset inventory, SAM, cloud infrastructure, SaaS, and technology lifecycle data. | Starts at ~$25,000 – $50,000/year (enterprise tier based on managed IT spend, asset count, and cloud workloads) | 30-day proof-of-concept (POC) trial (or module-specific 14-day evaluation); no permanent free tier |
+| **[BMC Helix Discovery](https://www.bmc.com/it-solutions/helix-discovery.html)** | Infrastructure discovery and dependency-mapping platform discovering IT assets and relationships for CMDB and ITSM. | Starts at ~$40 – $75/node/year (enterprise annual contracts typically starting at $25,000+ for minimum node blocks) | 30-day proof-of-concept (POC) trial / live guided sandbox evaluation; no permanent free tier |
+| **[InvGate Asset Management](https://www.invgate.com/asset-management/)** | IT asset-management platform covering hardware, software, inventory, lifecycle management, and ITAM workflows. | Starter: $0.21/node/month ($1,250/year for 500 nodes); Pro: $0.38/node/month ($2,280/year for 500 nodes) | 30-day free trial (fully functional with unlimited nodes during trial period; no permanent free tier) |
+| **[SolarWinds Service Desk](https://www.solarwinds.com/service-desk)** | IT service-management and asset-management platform with inventory, discovery, configuration, and service-management capabilities. | Essentials: $39/technician/month ($468/technician/year); Advanced: $79/technician/month ($948/tech/year); Premier: $99/technician/month ($1,188/tech/year) | 30-day free trial (full access to Premier tier features including asset discovery and CMDB; no permanent free tier) |
+| **[ManageEngine AssetExplorer](https://www.manageengine.com/products/asset-explorer/)** | IT asset-management and CMDB platform providing hardware/software inventory, lifecycle management, and discovery. | Free for ≤25 nodes (on-prem) or ≤50 nodes (cloud); Paid plans start at $955/year (on-prem) or $1,245/year (cloud) for 250 assets | Free forever for up to 25 nodes (on-premises) or 50 nodes (cloud); 30-day free trial for up to 250 assets |
+| **[Freshservice](https://www.freshworks.com/freshservice/)** | IT service-management and asset discovery platform with hardware/software lifecycle management and CMDB. | Starter: $19/agent/month; Growth: $49/agent/month (includes 100 assets; extra assets at $75–$125 per 500 asset units); Pro: $95/agent/month | 14-day free trial (full Enterprise/Pro tier access with up to 100 requesters); no permanent free tier |
+| **[NinjaOne](https://www.ninjaone.com/)** | Endpoint management and IT operations platform providing device inventory, monitoring, patch management, and software management. | Starts at $3.75 – $6.00/device/month ($45.00 – $72.00/device/year, scaling to $1.50/device/month at volume) | 14-day free trial (full platform access with unlimited test devices; no permanent free tier) |
+| **[Datadog Infrastructure Monitoring](https://www.datadoghq.com/product/infrastructure-monitoring/)** | Infrastructure observability platform automatically discovering hosts, containers, services, and cloud resources. | Free for ≤5 hosts; Pro: $15.00/host/month (billed annually, or $18 on-demand); Enterprise: $23.00/host/month | Free forever for up to 5 hosts (1-day metric retention); 14-day free trial of full platform with unlimited hosts |
+| **[Dynatrace](https://www.dynatrace.com/)** | Observability platform providing automatic discovery and topology mapping across applications, infrastructure, and cloud environments. | Foundation & Discovery: $0.01/host-hour (~$7.00/host/month); Infrastructure Monitoring: $0.04/host-hour (~$29.00/host/month); Full-Stack: $0.01/memory-GiB-hour (~$58.00/host/month) | 15-day free trial (full platform access with no credit card required); permanent public interactive Playground environment |
 
 ## Open-Source GitHub Projects
 
